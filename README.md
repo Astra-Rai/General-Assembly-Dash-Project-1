@@ -2,7 +2,8 @@
 ### General Assembly Dash 
 #### Project 1 | Build a Personal Website
 
-#### [Project Codepen Link]( https://codepen.io/Astra_Rai_Daniels/pen/RmrYNB) 
+#### [Project Codepen Link](https://codepen.io/Astra_Rai_Daniels/pen/RmrYNB)
+
 
 ---
 **Project Summary | Part 1 | Make the Headlines and Inputsy**
