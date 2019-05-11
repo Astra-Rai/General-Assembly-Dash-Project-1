@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<!--line below tells browser HTML5 is being used-->
-<!--wrap head tag around style tags-->
 
 <head>
-    <!--put title tag in the head, above style tag-->
-    <!--content within title tags appears in tab-->
     <title>Anna Dowlin</title>
     <style>
-        /*centered all elements in the body*/
-        
         body {
             text-align: center;
-            /*change body background to black*/
-            background: black;
-            /*change body text to white*/
+            /*set backround of body to an img*/
+            background: url("http://dash.ga.co/assets/anna-bg.png");
+            /*commented outbackground: black;*/
+            /*
+     background-cover will resize the background image to cover the entire container,
+     if it has to stretch the image or cut a little bit off one of the edges8
+     */
+            background-size: cover;
+            /*center background image*/
+            background-position: center;
             color: white;
-            /*set font-family (style of text) to helvetica*/
             font-family: helvetica;
-            /*change body background to black*/
+        }
+        /*paragraph styling*/
+        
+        p {
+            /*make font-size proportional to text, "Hi! I'mm......"*/
+            font-size: 22px;
+        }
+        /*input styling*/
+        /*set border to 0 to get rid of default styling on inputs*/
+        
+        input {
+            border: 0;
+            /*padding is amount of space between edge of element and content within*/
+            /*set padding to 10px*/
+            pading: 10px;
+        }
+        /*select input element by its attribute, "submit"*/
+        /*change background color of submit button to red*/
+        /*set background of */
+        
+        input [type="submit"] {
+            background: red;
+            color: white;
         }
     </style>
 </head>
-<!--added <body tag around h1, p, and input elements-->
 
 <body>
-    <h1>Anna Dowlin</h1>
+    <!--replace h1 tag with content below img tag-->
+    <!--img tags uses image located a URL in the src attribute-->
+    <!--absolute URL inclued http:// and full domain name before the directory-->
+    <!--the directory is (/assets/logo.png)-->
+    <!--relative URL,shortcuts, can skip domain name-->
+    <!--relative URL works if you're linking file on the same domain as current page-->
+    <img src="https://ga-dash.s3.amazonaws.com/production/assets/anna.png">
     <p>Hi! I'm Anna, a NYC-based marketer. Say hello!</p>
     <input type="email" placeholder="Your email">
     <input type="submit">
