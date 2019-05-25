@@ -6,7 +6,7 @@
 
 
 ---
-**Project Summary | Part 1 | Make the Headlines and Inputsy**
+**Project Summary | Part 1 | Make the Headlines and Inputs**
 
 Coded email form using one header tag, a paragraph tag, and two input form elements. One input element with the type="email" and a  placeholder attribute (placeholder attribute specifies expected vaule of the input field). The other input element has the type="submit". 
 
